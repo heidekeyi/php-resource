@@ -1,0 +1,25 @@
+.page {
+    padding: var(--form-padding);
+}
+
+.inputBox {
+    width: 100%;
+    display: flex;
+}
+
+
+.input {
+    font-size: 16px;
+    color: var(--color-normal);
+    border: 1px solid var(--color-normal);
+    border-radius: 5px;
+    flex-grow: 1;
+    outline: none;
+    padding: 0 9px;
+    line-height: var(--bar-line-height);
+}
+
+.input:focus {
+    box-shadow: 0 0 1px 1px rgba(150, 162, 3, 0.2) inset,
+    0 0 3px 3px rgba(150, 162, 3, 0.3);
+}

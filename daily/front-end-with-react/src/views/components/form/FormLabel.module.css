@@ -1,0 +1,25 @@
+.page {
+    padding: 0 5px 6px;
+    color: var(--color-normal);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: var(--bar-line-height);
+    font-size: 16px;
+    user-select: none;
+}
+
+.boxBtn{
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.btn:hover{
+    color: #afbf09;
+}

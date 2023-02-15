@@ -1,0 +1,27 @@
+.page {
+    composes: flex from './SidebarPage.module.css';
+    line-height: 90px;
+    transition: var(--transition-width);
+    overflow: hidden;
+}
+
+.expand {
+    composes: page;
+    width: var(--width-expand);
+}
+
+.collapse {
+    composes: page;
+    width: var(--width-collapse);
+}
+
+.icon {
+    composes: copyright from '../assets/icon/icon.module.css';
+    composes: icon from './SidebarPage.module.css';
+    font-size: 27px;
+}
+
+.caption {
+    composes: caption from './SidebarPage.module.css';
+    font-size: 24px;
+}

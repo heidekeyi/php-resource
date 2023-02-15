@@ -1,0 +1,57 @@
+.page {
+    transition: var(--transition-padding);
+    height: 100vh;
+    overflow: auto;
+}
+
+.collapse {
+    composes: page;
+    padding-left: var(--width-collapse);
+}
+
+.expand {
+    composes: page;
+    padding-left: var(--width-expand);
+}
+
+.content {
+    position: relative;
+    padding: var(--bar-height) 6px 0;
+    height: 100%;
+}
+
+.view {
+    border-radius: 9px;
+    height: 100%;
+}
+
+.bar {
+    position: absolute;
+    left: 0;
+    height: var(--bar-height);
+    width: 100%;
+    background: var(--bar-background);
+}
+
+.search {
+    composes: bar;
+    top: 0;
+    padding: 3px 5px 4px;
+}
+
+.barView {
+    border-radius: 6px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 0 6px;
+}
+
+.searchView {
+    composes: barView;
+}
+
+
+
+

@@ -1,0 +1,144 @@
+:root {
+    --table-color: var(--color-normal);
+    --table-radius: 6px;
+    --table-height-hd: 39px;
+    --table-height-bd: 30px;
+}
+
+.relative {
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.page {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.column {
+    composes: relative;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    border: 1px solid var(--table-color);
+    border-left: none;
+    color: var(--table-color);
+    overflow: hidden;
+    padding: 0 6px;
+}
+
+.column:first-child {
+    border-left: 1px solid var(--table-color);
+    border-top-left-radius: var(--table-radius);
+    border-bottom-left-radius: var(--table-radius);
+}
+
+.column:last-child {
+    border-top-right-radius: var(--table-radius);
+    border-bottom-right-radius: var(--table-radius);
+}
+
+.hd {
+    composes: relative;
+    width: 100%;
+    line-height: var(--table-height-hd);
+    font-size: 22px;
+    user-select: none;
+}
+
+.bd {
+    composes: relative;
+    line-height: var(--table-height-bd);
+}
+
+.border {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: var(--table-height-bd);
+    border-top: 1px solid var(--table-color);
+}
+
+.border:nth-of-type(odd) {
+    background: #FFEDEA;
+}
+
+.border:nth-of-type(even) {
+    background: #FFFCF0;
+}
+
+.border:first-child {
+    height: var(--table-height-hd);
+    top: 0;
+    border: none;
+    background: #E0F0FC;
+}
+
+.operations {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.operation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 9px;
+}
+
+.operation:first-child {
+    padding-left: 0;
+}
+
+.operation:last-child {
+    padding-right: 0;
+}
+
+.btn {
+    composes: bd;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: var(--transition-color);
+    user-select: none;
+}
+
+.new {
+    composes: btn;
+    color: #5f9f03;
+}
+
+.new:hover {
+    color: #60cf03;
+}
+
+.update {
+    composes: btn;
+    color: #c09030;
+}
+
+.update:hover {
+    color: #ee6630;
+}
+
+.delete {
+    composes: btn;
+    color: #a00;
+}
+
+.delete:hover {
+    color: #f00;
+}
+
+.select {
+    composes: btn;
+    color: #6f7f03;
+}
+
+.select:hover {
+    color: #afbf09;
+}

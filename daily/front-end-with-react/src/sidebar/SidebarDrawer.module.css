@@ -1,0 +1,25 @@
+.page {
+    line-height: 39px;
+    font-size: 18px;
+    transition: var(--transition-height);
+    overflow: hidden;
+}
+
+.row {
+    composes: flex from './SidebarPage.module.css';
+    transition: var(--transition-background);
+    cursor: pointer;
+}
+
+.row:hover {
+    background: var(--color-hover);
+}
+
+.icon {
+    composes: icon from 'SidebarPage.module.css';
+}
+
+.caption {
+    flex-grow: 1;
+    flex: none;
+}

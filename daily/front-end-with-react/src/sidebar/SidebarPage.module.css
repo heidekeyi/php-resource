@@ -1,0 +1,37 @@
+.page {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    user-select: none;
+    background: var(--color-normal);
+    transition: var(--transition-width);
+}
+
+.expand {
+    composes: page;
+    width: var(--width-expand);
+}
+
+.collapse {
+    composes: page;
+    width: var(--width-collapse);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: var(--width-collapse);
+    text-align: center;
+    flex: none;
+}
+
+.caption {
+    width: 90px;
+    flex: none;
+}
+

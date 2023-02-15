@@ -1,0 +1,10 @@
+.page {
+    line-height: var(--bar-line-height);
+    padding: 0 5px;
+    border-radius: 5px;
+    border: 1px solid var(--color-normal);
+    color: var(--color-normal);
+    cursor: text;
+    box-shadow: 0 0 1px 1px rgba(150, 162, 3, 0.2) inset,
+    0 0 3px 3px rgba(150, 162, 3, 0.3);
+}

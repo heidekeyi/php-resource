@@ -1,0 +1,10 @@
+.title {
+    font-weight: normal;
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #6f8f09;;
+    line-height: var(--bar-line-height);
+    flex: none;
+}

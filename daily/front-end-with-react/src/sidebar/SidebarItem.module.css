@@ -1,0 +1,21 @@
+.page {
+    position: relative;
+    transition: var(--transition-width),
+    var(--transition-background);
+}
+
+.expand {
+    composes: page;
+    width: var(--width-expand);
+    cursor: pointer;
+}
+
+.collapse {
+    composes: page;
+    width: var(--width-collapse);
+    cursor: default;
+}
+
+.collapse:hover {
+    background: var(--color-hover);
+}

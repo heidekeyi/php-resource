@@ -1,0 +1,30 @@
+.page {
+    line-height: var(--bar-line-height);
+    display: flex;
+    font-size: 16px;
+}
+
+.text {
+    padding: 0 15px;
+    border-radius: 6px;
+}
+
+.normal {
+    composes: text;
+    cursor: pointer;
+    color: #fff;
+    background: var(--color-normal);
+    transition: var(--transition-background);
+}
+
+.normal:hover {
+    background: var(--color-hover);
+}
+
+.disable {
+    composes: text;
+    background: rgba(36, 63, 0, 0.36);
+    color: #ccc;
+    cursor: default;
+}
+

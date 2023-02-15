@@ -1,0 +1,128 @@
+{
+  "id": "3180049",
+  "name": "icon",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1440877",
+      "name": "版权",
+      "font_class": "copyright",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "15838542",
+      "name": "toggle-left",
+      "font_class": "collapse",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "15838543",
+      "name": "toggle-right",
+      "font_class": "expand",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "4682538",
+      "name": "collect",
+      "font_class": "collect",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "851401",
+      "name": "error",
+      "font_class": "error",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "1226477",
+      "name": "success",
+      "font_class": "success",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "12097394",
+      "name": "单位",
+      "font_class": "unit",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "3794029",
+      "name": "体育-滑板2",
+      "font_class": "sport",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "27679370",
+      "name": "down",
+      "font_class": "up",
+      "unicode": "ea19",
+      "unicode_decimal": 59929
+    },
+    {
+      "icon_id": "1381356",
+      "name": "down",
+      "font_class": "down",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "27679440",
+      "name": "down",
+      "font_class": "right",
+      "unicode": "ea1a",
+      "unicode_decimal": 59930
+    },
+    {
+      "icon_id": "27679446",
+      "name": "down",
+      "font_class": "left",
+      "unicode": "ea1b",
+      "unicode_decimal": 59931
+    },
+    {
+      "icon_id": "15838525",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "1462883",
+      "name": "category",
+      "font_class": "category",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "9866681",
+      "name": "clock",
+      "font_class": "clock",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "16617911",
+      "name": "bill",
+      "font_class": "bill",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "278749",
+      "name": "rmb",
+      "font_class": "rmb",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    }
+  ]
+}

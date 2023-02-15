@@ -1,0 +1,50 @@
+.page {
+    composes: flex from './SidebarPage.module.css';
+    line-height: 60px;
+    overflow: hidden;
+    transition: var(--transition-width),
+    var(--transition-background);
+}
+
+.page:hover {
+    background: var(--color-hover);
+}
+
+
+.expand {
+    composes: page;
+    width: var(--width-expand);
+}
+
+.collapse {
+    composes: page;
+    width: var(--width-collapse);
+}
+
+.fontSize {
+    font-size: 20px;
+}
+
+.caption {
+    composes: caption from './SidebarPage.module.css';
+    composes: fontSize;
+}
+
+.arrow {
+    composes: down from '../assets/icon/icon.module.css';
+    font-size: 20px;
+    text-align: center;
+    flex: none;
+    width: 33px;
+    transition: transform 0.3s ease;
+}
+
+.up {
+    composes: arrow;
+    transform: rotate(-180deg);
+}
+
+.down {
+    composes: arrow;
+    transform: rotate(0deg);
+}

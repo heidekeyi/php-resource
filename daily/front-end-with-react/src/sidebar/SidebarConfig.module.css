@@ -1,0 +1,29 @@
+.icon {
+    composes: icon from './SidebarPage.module.css';
+    font-size: 24px;
+}
+
+.clock {
+    composes: clock from '../assets/icon/icon.module.css';
+    composes: icon;
+}
+
+.bill {
+    composes: bill from '../assets/icon/icon.module.css';
+    composes: icon;
+}
+
+.sport {
+    composes: sport from '../assets/icon/icon.module.css';
+    composes: icon;
+}
+
+.collect {
+    composes: collect from '../assets/icon/icon.module.css';
+    composes: icon;
+}
+
+.unit {
+    composes: unit from '../assets/icon/icon.module.css';
+    composes: icon;
+}

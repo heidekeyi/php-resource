@@ -1,0 +1,32 @@
+.shadowShow {
+    visibility: visible;
+    opacity: 1;
+}
+
+.shadowHide {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.page {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--shadow-background);
+    z-index: 10;
+    user-select: none;
+}
+
+.show {
+    composes: shadowShow page;
+    transition: var(--transition-opacity-show),
+    var(--transition-visibility-show);
+}
+
+.hide {
+    composes: shadowHide page;
+    transition: var(--transition-opacity-hide),
+    var(--transition-visibility-hide);
+}

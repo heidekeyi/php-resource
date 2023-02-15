@@ -1,0 +1,40 @@
+.page {
+    position: fixed;
+    height: var(--bar-height);
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--bar-background);
+    transition: var(--transition-padding);
+    user-select: none;
+}
+
+.collapse {
+    composes: page;
+    padding-left: var(--width-collapse);
+}
+
+.expand {
+    composes: page;
+    padding-left: var(--width-expand);
+}
+
+.content {
+    height: 100%;
+    padding: 3px 5px 4px;
+}
+
+.view {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 0 9px;
+    border-radius: 6px;
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+}

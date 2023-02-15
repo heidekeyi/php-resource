@@ -1,0 +1,29 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxInput {
+    font-size: 16px;
+    padding-right: 9px;
+}
+
+.boxInput:first-child {
+    padding-left: 0;
+}
+
+.input {
+    width: 180px;
+    line-height: var(--bar-line-height);
+    border-radius: 6px;
+    padding: 0 6px;
+    outline: none;
+    border: 1px solid var(--color-normal);
+    color: var(--color-normal);
+}
+
+.input:focus {
+    box-shadow: 0 0 1px 1px rgba(150, 162, 3, 0.2) inset,
+    0 0 3px 3px rgba(150, 162, 3, 0.3);
+}

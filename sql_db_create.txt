@@ -1,0 +1,3 @@
+ create database db1 charset utf8;
+
+create database development charset utf8;

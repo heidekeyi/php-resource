@@ -1,0 +1,30 @@
+.page {
+    display: flex;
+}
+
+.icon {
+    width: 42px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    background: var(--color-normal);
+    color: #fff;
+    border-radius: 5px;
+    line-height: var(--bar-line-height);
+    transition: var(--transition-background);
+    flex: none;
+}
+
+.icon:hover {
+    background: var(--color-hover);
+}
+
+.iconCollapse {
+    composes: collapse from '../../../assets/icon/icon.module.css';
+    composes: icon;
+}
+
+.iconExpand {
+    composes: expand from '../../../assets/icon/icon.module.css';
+    composes: icon;
+}

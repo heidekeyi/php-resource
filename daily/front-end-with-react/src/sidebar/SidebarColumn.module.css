@@ -1,0 +1,49 @@
+.page {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+    background: var(--color-normal);
+    transition: var(--transition-height),
+    var(--transition-max-width);
+}
+
+.padding {
+    padding: 0 21px;
+}
+
+.hd {
+    composes: padding;
+    line-height: 60px;
+    font-size: 20px;
+    flex: none;
+}
+
+.active {
+    composes: hd;
+    cursor: pointer;
+    transition: var(--transition-background);
+}
+
+.active:hover {
+    background: var(--color-hover);
+}
+
+.disable {
+    composes: hd;
+    cursor: default;
+}
+
+.bd {
+    composes: padding;
+    line-height: 36px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: var(--transition-background);
+}
+
+.bd:hover {
+    background: var(--color-hover);
+}

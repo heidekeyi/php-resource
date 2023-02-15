@@ -1,0 +1,44 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 21vh;
+}
+
+.content {
+    border-radius: 9px;
+    padding: 15px 60px 27px;
+    font-size: 18px;
+    background: #fff;
+    text-align: center;
+}
+
+
+.icon {
+    composes: error from '../../assets/icon/icon.module.css';
+    color: #f00;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.message {
+    color: #c00;
+    line-height: 36px;
+    padding: 15px 0 30px 0;
+}
+
+.button {
+    cursor: pointer;
+    padding: 0 6px;
+    background: #f00;
+    color: #fff;
+    line-height: 30px;
+    border-radius: 6px;
+}
+
+.button:hover {
+    background: #b00;
+}
